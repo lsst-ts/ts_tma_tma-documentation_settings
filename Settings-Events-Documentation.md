@@ -119,7 +119,7 @@ MySQL connection, which may not be used for a while.
 
 This sequence diagram shows a data request from the EUI to the MariaDB database.
 
-```plantuml
+```{uml}
 @startuml
 participant EUI
 participant "LSSTLayer.lvclass" as lsst
@@ -155,7 +155,7 @@ keeping open a MySQL connection, which may not be used for a while.
 
 This sequence diagram shows a data request from the PXI to the MariaDB database.
 
-```plantuml
+```{uml}
 @startuml
 participant Statechart
 participant "LSSTLayer.lvclass" as lsst
